@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <div class="container-fluid">
+        <nav class="row navbar navbar-expand-lg border-bottom navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo swabku.png" alt="" class="img-logo">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html" class="nav-link active">Beranda</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Servis</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="hospital-list.html" class="nav-link">Rumah Sakit</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            Fadlan Naufal
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="profile.html" class="dropdown-item">Profile</a>
+                            <a href="login.html" class="dropdown-item">Keluar</a>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <header class="header-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="title-app">Swabku</div>
+                    <h1 class="title-banner">Perawatan kesehatan untuk kesehatan keluarga</h1>
+                    <p class="subtitle-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                        iusto ullam perspiciatis numquam assumenda. Impedit, cupiditate hic dolorem nam aliquid illum
+                        necessitatibus nesciunt debitis, quis consectetur ipsa quod, dicta mollitia.</p>
+                    <a href="#" class="btn btn-getstarted">Mulai</a>
+                </div>
+                <div class="col-sm-12 col-lg-6 d-none d-md-block text-center">
+                    <img src="frontend/images/Group 1.png" alt="" class="banner-img">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="section-our-service-header text-center">
+                <h2 class="title-header">Servis Kami</h2>
+                <p class="subtitle-header">
+                    kami menawarkan perawatan kesehatan
+                    <br>
+                    lengkap untuk semua orang
+                </p>
+            </section>
+            <section class="section-our-service-content row justify-content-center">
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-service d-flex flex-column">
+                        <img src="frontend/images/img_info.png" alt="" class="img-service">
+                        <div class="title-service">Info Lengkap</div>
+                        <div class="desc-service">
+                            Info kesehatan yang lengkap dan up to date
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-service d-flex flex-column">
+                        <img src="frontend/images/img_hospital.png" alt="" class="img-service">
+                        <div class="title-service">Rumah Sakit</div>
+                        <div class="desc-service">
+                            Lokasi dan kondisi rumah sakit yang nyaman
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-service d-flex flex-column">
+                        <img src="frontend/images/img_recomend.png" alt="" class="img-service">
+                        <div class="title-service">Paket Pilihan</div>
+                        <div class="desc-service">
+                            Paket tes dengan harga yang terjangkau
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-service d-flex flex-column">
+                        <img src="frontend/images/img_doctor.png" alt="" class="img-service">
+                        <div class="title-service">Dokter Terbaik</div>
+                        <div class="desc-service">
+                            Kumpulan dokter yang terpercaya
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-hospital-header text-center">
+                <h2 class="title-header">Rumah Sakit</h2>
+                <p class="subtitle-header">Pilihan rumah sakit terdekat dari lokasi anda</p>
+            </section>
+
+            <section class="section-hospital-content row justify-content-center">
+                <div class="col-sm-12 col-md-3">
+                   <a href="hospital-list.html">
+                        <div class="card-hospital d-flex flex-column"
+                        style="background-image: url('https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg');">
+                        <div class="overlay">
+                            <div class="hospital-city">Ciawi</div>
+                            <div class="hospital-name">RSUD Ciawi</div>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-hospital d-flex flex-column"
+                        style="background-image: url('https://img.beritasatu.com/cache/beritasatu/910x580-2/1588818350.jpg');">
+                        <div class="overlay">
+                            <div class="hospital-city">Bogor Kota</div>
+                            <div class="hospital-name">RSUD Bogor</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-hospital d-flex flex-column"
+                        style="background-image: url('https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/350575_20-3-2020_9-46-32.jpg');">
+                        <div class="overlay">
+                            <div class="hospital-city">Cibinong</div>
+                            <div class="hospital-name">Rumah Sakit Bina Husada</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card-hospital d-flex flex-column"
+                        style="background-image: url('https://www.smarterhealth.id/wp-content/uploads/2019/09/bmc-mayapada-hospital-bogor.jpg');">
+                        <div class="overlay">
+                            <div class="hospital-city">Bogor</div>
+                            <div class="hospital-name">Rumah Sakit BMC</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <a href="#" class="view-all-hospital">Lihat Semua >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Start Footer Content -->
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <h5>Swabku</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Tentang Kami</a></li>
+                                <li><a href="">Kontak Kami</a></li>
+                                <li><a href="">Dokter Kami</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h5>Lainnya</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Syarat & Ketentuan</a></li>
+                                <li><a href="">Privasi</a></li>
+                                <li><a href="">Iklan</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <h5>Social Media</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Facebook</a></li>
+                                <li><a href="">Instagram</a></li>
+                                <li><a href="">Gmail</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-2 pb-2 copyright-box">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    2020 Copyright Swabku . All Rights Reserved . Jakarta, Indonesia
+                </div>
+            </div>
+        </div> 
+    </footer>
+    <!-- End Footer Content -->
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>

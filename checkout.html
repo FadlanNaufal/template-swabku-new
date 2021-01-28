@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <div class="container-fluid">
+        <nav class="row navbar navbar-expand-lg border-bottom navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo swabku.png" alt="" class="img-logo">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html" class="nav-link">Beranda</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Servis</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="hospital-list.html" class="nav-link active">Rumah Sakit</a>
+                    </li>
+                    
+                </ul>
+                <form action="login.html" class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+                <!-- For Web -->
+                <form action="login.html" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Start Header -->
+    <!-- End Header -->
+
+    <!-- Start Main Content -->
+    <main>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col p-0">
+                    <nav>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">Rumah Sakit</li>
+                            <li class="breadcrumb-item">RSUD Ciawi</li>
+                            <li class="breadcrumb-item active">Rapid Test</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <section class="section-selected-package row">
+               <div class="col-sm-12 col-md-5">
+                   <div class="card-selected-package row">
+                       <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1588496416/attached_image/hasil-rapid-test-covid-19-negatif-apa-artinya.jpg" alt="" class="img-selected-package">
+                       <div class="package-detail">
+                           <div class="package-name">Rapid Test</div>
+                           <div class="package-price">Rp.100.000 - 10 Kuota</div>
+                           <div class="package-qty row p-3">
+                               <button class="btn btn-minus">-</button>
+                                <input type="text" class="form-control text-center qty-input"placeholder="2">
+                               <button class="btn btn-plus">+</button>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-7">
+                <div class="card-checkout-package">
+                    <h2 class="title-banner">Checkout</h2>
+                    <form action="#" method="post" autocomplete="off">
+                        <div class="form-group">
+                            <label for="">Nama Pemesan</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Pilih Tanggal</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Pilih Provinsi</label>
+                            <select name="" id="" class="form-control">
+                                <option value="" selected disabled> Pilih Provinsi </option>
+                                <option value="">Jawa Barat</option>
+                                <option value="">Jawa Tengah</option>
+                                <option value="">Jawa Timur</option>
+                                <option value="">Sumatra Barat</option>
+                                <option value="">Sumatra Utara</option>
+                                <option value="">Sumatra Timur</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Pilih Kota</label>
+                            <select name="" id="" class="form-control">
+                                <option value="" selected disabled> Pilih Kota </option>
+                                <option value="">Bogor</option>
+                                <option value="">Bandung</option>
+                                <option value="">Depok</option>
+                                <option value="">Bekasi</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <a href="pesanan.html" class="btn btn-block btn-checkout">Pesan</a>
+                            <a href="hospital-package-list.html" class="btn btn-block btn-secondary">Batal Pesan</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </section>
+        </div>
+    </main>
+    <!-- Start Footer Content -->
+    
+    <!-- End Footer Content -->
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
