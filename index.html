@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
     <link rel="stylesheet" href="frontend/styles/main.css">
 </head>
 
@@ -31,10 +32,10 @@
                         <a href="index.html" class="nav-link active">Beranda</a>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a href="#" class="nav-link">Servis</a>
+                        <a href="#" class="nav-link">Artikel</a>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a href="hospital-list.html" class="nav-link">Rumah Sakit</a>
+                        <a href="hospital-list.html" class="nav-link">Sarana Kesehatan</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -97,9 +98,9 @@
                 <div class="col-sm-12 col-md-3">
                     <div class="card-service d-flex flex-column">
                         <img src="frontend/images/img_hospital.png" alt="" class="img-service">
-                        <div class="title-service">Rumah Sakit</div>
+                        <div class="title-service">Sarana Kesehatan</div>
                         <div class="desc-service">
-                            Lokasi dan kondisi rumah sakit yang nyaman
+                            Lokasi dan kondisi sarana kesehatan yang nyaman
                         </div>
                     </div>
                 </div>
@@ -124,8 +125,8 @@
             </section>
 
             <section class="section-hospital-header text-center">
-                <h2 class="title-header">Rumah Sakit</h2>
-                <p class="subtitle-header">Pilihan rumah sakit terdekat dari lokasi anda</p>
+                <h2 class="title-header">Sarana Kesehatan</h2>
+                <p class="subtitle-header">Pilihan sarana kesehatan terdekat dari lokasi anda</p>
             </section>
 
             <section class="section-hospital-content row justify-content-center">
@@ -154,7 +155,7 @@
                         style="background-image: url('https://d1ojs48v3n42tp.cloudfront.net/provider_location_list/350575_20-3-2020_9-46-32.jpg');">
                         <div class="overlay">
                             <div class="hospital-city">Cibinong</div>
-                            <div class="hospital-name">Rumah Sakit Bina Husada</div>
+                            <div class="hospital-name">Sarana Kesehatan Bina Husada</div>
                         </div>
                     </div>
                 </div>
@@ -163,7 +164,54 @@
                         style="background-image: url('https://www.smarterhealth.id/wp-content/uploads/2019/09/bmc-mayapada-hospital-bogor.jpg');">
                         <div class="overlay">
                             <div class="hospital-city">Bogor</div>
-                            <div class="hospital-name">Rumah Sakit BMC</div>
+                            <div class="hospital-name">Sarana Kesehatan BMC</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <a href="hospital-list.html" class="view-all-hospital">Lihat Semua >></a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section-article-header text-center">
+                <h2 class="title-header">Artikel</h2>
+                <p class="subtitle-header">Informasi kesehatan terkini untuk Anda</p>
+            </section>
+            <section class="section-article-content row justify-content-center">
+                <div class="col-sm-12 col-md-4 pb-3">
+                    <div class="card-article d-flex flex-column"
+                        style="background-image: url('https://www.smarterhealth.id/wp-content/uploads/2019/09/bmc-mayapada-hospital-bogor.jpg');">
+                        <div class="overlay">
+                            <div class="article-city">Dampak Depresi bagi Tubuh yang Harus Diwaspadai</div>
+                            <div class="article-name">
+                                Dewasa ini, makanan fungsional semakin dikenal oleh masyarakat luas. Makanan fungsional
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 pb-3">
+                    <div class="card-article d-flex flex-column"
+                        style="background-image: url('https://www.smarterhealth.id/wp-content/uploads/2019/09/bmc-mayapada-hospital-bogor.jpg');">
+                        <div class="overlay">
+                            <div class="article-city">Dampak Depresi bagi Tubuh yang Harus Diwaspadai</div>
+                            <div class="article-name">
+                                Dewasa ini, makanan fungsional semakin dikenal oleh masyarakat luas. Makanan fungsional
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 pb-3">
+                    <div class="card-article d-flex flex-column"
+                        style="background-image: url('https://www.smarterhealth.id/wp-content/uploads/2019/09/bmc-mayapada-hospital-bogor.jpg');">
+                        <div class="overlay">
+                            <div class="article-city">Dampak Depresi bagi Tubuh yang Harus Diwaspadai</div>
+                            <div class="article-name">
+                                Dewasa ini, makanan fungsional semakin dikenal oleh masyarakat luas. Makanan fungsional
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -180,7 +228,7 @@
     <!-- End Main Content -->
 
     <!-- Start Footer Content -->
-    <footer class="section-footer mt-5 mb-4 border-top">
+    <footer class="section-footer sticky-footer mt-5 mb-4 border-top">
         <div class="container pt-5 pb-5">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -224,6 +272,7 @@
     <!-- End Footer Content -->
     <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
 </body>
 
 </html>

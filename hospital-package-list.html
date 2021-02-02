@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
     <link rel="stylesheet" href="frontend/styles/main.css">
 </head>
 
@@ -34,7 +35,7 @@
                         <a href="#" class="nav-link">Servis</a>
                     </li>
                     <li class="nav-item mx-md-2">
-                        <a href="hospital-list.html" class="nav-link">Rumah Sakit</a>
+                        <a href="hospital-list.html" class="nav-link">Sarana Kesehatan</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -62,13 +63,22 @@
           <div class="container">
               <div class="row">
                   <div class="col-sm-12 col-md-6">
-                    <img src="https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg" class="img-hospital-detail" alt="">
+                    <div class="gallery">
+                        <div class="xzoom-container">
+                            <img src="https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg" class="img-hospital-detail xzoom" alt="" id="xzoom-default" xoriginal="https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg">
+                        </div>
+                        <div class="xzoom-thumbs">
+                            <a href="https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg">
+                                <img src="https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg" alt="" class="xzoom-gallery" width="128" xpreview="https://static.konsula.com/images/practice/0001002000/0001001092/rumah-sakit-umum-daerah-ciawi.800x600.jpg">
+                            </a>
+                        </div>
+                    </div>
                   </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="hospital-detail">
-                        <div class="hospital-name">Rumah Sakit Unit Daerah Ciawi</div>
+                        <div class="hospital-name">Sarana Kesehatan Unit Daerah Ciawi</div>
                         <div class="hospital-city">Ciawi, Bogor</div>
-                        <div class="hospital-desc">RSUD Ciawi atau Rumah Sakit Umum Daerah RSUD Ciawi adalah sebuah rumah sakit yang terletak di Kabupaten Bogor, Jawa Barat.RSUD Ciawi adalah rumah sakit umum yang berada dibawah otoritas Pemerintah KabupatenBogor.</div>
+                        <div class="hospital-desc">RSUD Ciawi atau Sarana Kesehatan Umum Daerah RSUD Ciawi adalah sebuah sarana kesehatan yang terletak di Kabupaten Bogor, Jawa Barat.RSUD Ciawi adalah sarana kesehatan umum yang berada dibawah otoritas Pemerintah KabupatenBogor.</div>
                     </div>
                 </div>
               </div>
@@ -149,6 +159,17 @@
 <!-- End Footer Content -->
     <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.xzoom,.xzoom-gallery').xzoom({
+                zoomWidth : 500,
+                tint : '#333',
+                title : false,
+                Xoffset: 15
+            })
+        })
+    </script>
 </body>
 
 </html>

@@ -15,25 +15,34 @@
 </head>
 
 <body class="bg-login">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row justify-content-center">
-            <div class="col-5">
-                <div class="card-login justify-content-center">
-                    <div class="text-center">
-                        <img src="frontend/images/logo swabku.png" alt="" class="img-login">
+            <div class="col-10">
+                <div class="card-login row justify-content-center">
+                    <div class="col-sm-12 col-md-6 login-img text-center">
+                        <img src="frontend/images/password-banner.png" class="login-banner" alt="">
                     </div>
-                    <form action="#" method="post">
-                        <div class="form-group">
-                            <label for="">Email</label>
-                            <input type="text" class="form-control" placeholder="Masukkan email">
+                    <div class="col-sm-12 col-md-6 login-form justify-content-center">
+                        <div class="text-center">
+                            <img src="frontend/images/logo swabku.png" alt="" class="login-logo">
                         </div>
-                        <div class="form-group">
-                            <a href="forgot-password.html" class="btn btn-block btn-primary">Konfirmasi</a>
+                        <div class="login-header mb-2">
+                            <h2 class="title-header">Lupa Password</h2>
+                            <p class="subtitle-header">Masukkan email untuk konfirmasi sebelum ganti password</p>
                         </div>
-                        <div class="text-center mb-3">
-                            Sudah punya akun? <a href="login.html" class="sign-up text">Masuk</a>
-                        </div>
-                    </form>
+                        <form action="" method="POST" class="mt-4">
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <a href="forgot-password.html" class="btn btn-login btn-block">Konfirmasi</a>
+                            </div>
+                            <div class="text-center mt-3">
+                                Sudah punya akun? <a href="login.html" class="sign-up text">Masuk</a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
